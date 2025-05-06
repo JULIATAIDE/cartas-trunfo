@@ -36,12 +36,12 @@ int main (){
     scanf("%d", &turistico1);
 
 // Cálculos para Carta 1:
-if (area1 > 0) { // Evita divisão por zero
+if (area1 > 0) {
     densidade1 = (float) populacao1 / area1;
 } else {
     densidade1 = 0;
 }
-if (populacao1 > 0) { // Evita divisão por zero
+if (populacao1 > 0) {
     percapita1 = (pib1 * 1000000000.0) / (float) populacao1;
 } else {
     percapita1 = 0;
