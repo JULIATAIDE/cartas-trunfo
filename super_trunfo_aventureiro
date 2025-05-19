@@ -35,6 +35,12 @@ int main (){
     printf("Digite o número de Pontos Turísticos da cidade:\n");
     scanf("%d", &turistico1);
 
+ //Cálculo da carta 1 de densidade e percapita
+ 
+ densidade1 = (float) populacao1 / area1;
+
+ percapita1 = (pib1 * 1000000000.0) / (float) populacao1;
+
  // Informações da segunda carta
 
     printf("\nPreencha as informações da segunda carta!\n");
@@ -59,6 +65,12 @@ int main (){
 
     printf("Digite o número de Pontos Turísticos da cidade:\n");
     scanf("%d", &turistico2);
+
+    //Cálculo da carta 2 de densidade e percapita
+
+ densidade2 = (float) populacao2 / area2;
+
+ percapita2 = (pib2 * 1000000000.0) / (float) populacao2;
 
  // Dados que o usuário inseriu
 
