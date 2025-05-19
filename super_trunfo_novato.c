@@ -7,8 +7,7 @@ int main (){
     int turistico1, turistico2;
     float area1, area2;
     float pib1, pib2;
-
-
+   
  // Informações da primeira carta
 
     printf("Preencha as informações da primeira carta!\n");
@@ -19,7 +18,7 @@ int main (){
     printf("Digite o Código da carta (ex: A01):\n");
     scanf("%3s", codigo1);
 
-    printf("Digite o nome da Cidade (sem espaços):\n");
+    printf("Digite o nome da Cidade (sem espaço):\n");
     scanf("%s", cidade1);
 
     printf("Digite a população da Cidade:\n");
@@ -44,7 +43,7 @@ int main (){
     printf("Digite o Código da carta (ex: B02):\n");
     scanf("%3s", codigo2);
 
-    printf("Digite o Nome da Cidade (sem espaços):\n");
+    printf("Digite o Nome da Cidade (sem espaço):\n");
     scanf("%s", cidade2);
 
     printf("Digite a População da cidade:\n");
@@ -69,7 +68,7 @@ int main (){
     printf("Área da Cidade: %.2fkm²\n", area1);
     printf("PIB da Cidade: %.2f bilhões de reais\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", turistico1);
-   
+  
     printf("\n      SEGUNDA CARTA     \n");
     printf("Inicial do Estado: %c\n", estado2);
     printf("Código da Cidade: %s\n", codigo2);
@@ -78,6 +77,6 @@ int main (){
     printf("Área da Cidade: %.2fkm²\n", area2);
     printf("PIB da Cidade: %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", turistico2);
-
+  
     return 0;
 }

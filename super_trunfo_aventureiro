@@ -20,7 +20,7 @@ int main (){
     printf("Digite o Código da carta (ex: A01):\n");
     scanf("%3s", codigo1);
 
-    printf("Digite o nome da Cidade:\n");
+    printf("Digite o nome da Cidade (sem espaço):\n");
     scanf("%s", cidade1);
 
     printf("Digite a população da Cidade:\n");
@@ -35,18 +35,6 @@ int main (){
     printf("Digite o número de Pontos Turísticos da cidade:\n");
     scanf("%d", &turistico1);
 
-// Cálculos para Carta 1:
-if (area1 > 0) {
-    densidade1 = (float) populacao1 / area1;
-} else {
-    densidade1 = 0;
-}
-if (populacao1 > 0) {
-    percapita1 = (pib1 * 1000000000.0) / (float) populacao1;
-} else {
-    percapita1 = 0;
-}
-
  // Informações da segunda carta
 
     printf("\nPreencha as informações da segunda carta!\n");
@@ -57,7 +45,7 @@ if (populacao1 > 0) {
     printf("Digite o Código da carta (ex: B02):\n");
     scanf("%3s", codigo2);
 
-    printf("Digite o Nome da Cidade:\n");
+    printf("Digite o Nome da Cidade (sem espaço):\n");
     scanf("%s", cidade2);
 
     printf("Digite a População da cidade:\n");
@@ -71,18 +59,6 @@ if (populacao1 > 0) {
 
     printf("Digite o número de Pontos Turísticos da cidade:\n");
     scanf("%d", &turistico2);
-
-// Cálculos para carta 2:
-    if (area2 > 0) {
-        densidade2 = (float) populacao2 / area2;
-   } else {
-        densidade2 = 0;
-   }
-    if (populacao2 > 0) {
-        percapita2 = (pib2 * 1000000000.0) / (float) populacao2;
-    } else  {
-    percapita2 = 0;
-}
 
  // Dados que o usuário inseriu
 
@@ -110,4 +86,3 @@ if (populacao1 > 0) {
 
     return 0;
 }
-
