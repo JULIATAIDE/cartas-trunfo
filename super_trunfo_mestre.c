@@ -49,7 +49,6 @@ int main (){
  superpoder1 = (float)populacao1+area1+(pib1 * 1000000000.0)+(float)turistico1+percapita1+(1.0/densidadeinversa1);
     
 
-
  // Informações da segunda carta
 
     printf("\nPreencha as informações da segunda carta!\n");
